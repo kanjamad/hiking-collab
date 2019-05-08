@@ -1,1 +1,156 @@
-<h1>hi there hikers</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Happy Hikers is a meetup group for people who love to hike." />
+    <meta name="keywords" content="san francisco, hiking, meetup, bay area, outdoors" />
+
+    <title>Happy Hikers - Newsletter Sign-Up</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script> -->
+    <script defer src="/scripts/main.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header class="head">
+        <h1> <i class="fas fa-bars"></i>happy hikers</h1> 
+    </header>
+
+    <section class="containerHikers-main">
+      <h4>Hello happy hikers.</h4>
+      <h4>Went to go on an adventure?</h4>
+      <img  class="main-pic" src="/images/Adventure Hikers_Web.jpg" alt="Adventure Hikers">
+      
+      <h2 class="second-Head"> Adventure Hikes</h2>
+      <p>Discover the best local day hikes around. Find your favorite paths along the way and enjoy the scenic surroundings.  </p>
+  
+  
+  <div class="how-section1">
+        <div class="row">
+            <div class="col-md-3 how-img">
+                <img src="/images/Family Hike_Web.jpg" class=" img-fluid" alt=""/>
+            </div>
+  
+            <div class="col-md-3">
+                <h4>Family Hiking </h4>
+            <p class="text-muted">Creative ways to have fun and explore while hiking with your family Have everyone join in and beging a new adventure together.</p>
+            </div>
+  
+            <div class="col-md-3 how-img">
+                <img src="/images/Overnight Hikers_Web.jpg" class=" img-fluid" alt=""/>
+            </div>
+  
+          <div class="col-md-3">
+              <h4 class="text2">Overnight Hikes</h4>
+              <p class="text-muted">Planning a campout hike with your friends? Here are a few ideas to the best campsites with great hiking trails.</p>
+          </div>
+  
+        </div>
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  
+    <!-- <div>
+      <h2 class="second-Head"> Adventure Hikes</h2>
+      <p>Discover the best local day hikes around. Find your favorite paths along the way and enjoy the scenic surroundings.  </p>
+  
+      <div class="container">
+          <div class="row">
+        
+                  <div class="col-md-6">
+                    <img class="img-left" src="/images/Family Hike_Web.jpg"/>
+                    <h3 class="text1">Family Hiking </h3>
+                    <p>Creative ways to have fun and explore while hiking with your family Have everyone join in and beging a new adventure together.</p>
+                  
+              </div>
+        
+                  <div class="col-md-6">
+                    <img class="img-left" src="/images/Overnight Hikers_Web.jpg"/>
+                    <h3 class="text2">Overnight Hikes </h3>
+                    <p>Planning a campout hike with your friends? Here are a few ideas to the best campsites with great hiking trails.</p>
+                  
+              </div>
+              </div>
+            
+        </div>
+      </div> -->
+  
+  
+  </section>
+  
+  
+  
+
+
+
+
+
+
+    
+
+
+    <!-- form -->
+
+    <section class="newsletter">
+      <div class="newsletterbox">
+        <form id="newsletterSub" novalidate>
+          <h2>Stay connected with us!</h2>
+          <p>Subscribe to our newsletter to get the latest news to our hikes and receive discounts to upcoming events. We will send you a weekly happy hikers email.</p>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="firstName">* First Name</label>
+              <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
+              <p class="hide is-invalid">Please enter your first name</p>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="lastName">* Last Name</label>
+              <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required>
+              <p class="hide is-invalid">Please enter your last name</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="emailInput">* Enter your email</label>
+            <input type="email" class="form-control" id="emailInput" name="emailInput" placeholder="This is not spam." required>
+            <p class="hide is-invalid">Please enter a valid email</p>
+          </div>
+          <div class="form-group checkboxes">
+            Select any additional interests:<br />
+            <div class="form-check-inline">
+              <input type="checkbox" class="form-check-input" id="news1" name="news1">
+              <label class="form-check-label" for="news1">Day Hikes</label>
+            </div>
+            <div class="form-check-inline">
+              <input type="checkbox" class="form-check-input" id="news2" name="news2">
+              <label class="form-check-label" for="news2">Overnight Hikes</label>
+            </div>
+            <div class="form-check-inline">
+              <input type="checkbox" class="form-check-input" id="news3" name="news3">
+              <label class="form-check-label" for="news3">Destination Hikes</label>
+            </div>
+          </div>
+          <div class="privacy">If you continue, you agree to Happy Hiker’s Terms of Service. We will manage information about you as described in our Privacy Policy and Cookie Policy.</div>
+          <button type="submit" class="btn btn-primary">Ready. Set. Let's Hike.</button>
+        </form>
+        <div class="hide success" id="subscribeSuccess">
+          <img src="/images/confetti.jpg" alt="Confetti" /><br />
+          <span> Yea, Hiker <span id="hiker"></span>!<br />
+          Thanks for subscribing.<br/></span>
+          <img src="/images/jumping.jpg" alt="Jumping people" class="img2" />
+          <p>You are now a part of our Happy Hikers family.</p>
+          <p>Keep a lookout for our awesome upcoming events!</p>
+        </div>
+      </div>
+    </section>
+    <footer><div>&copy; 2019, Happy Hikers</div><div><i class="fab fa-twitter"></i><i class="fab fa-instagram"></i><i class="fab fa-facebook-f"></i></div></footer>
+  </body>
+</html>

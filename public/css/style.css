@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+footer {
+  margin: 0 20px 30px;
+  font-size: 10px;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer div {
+  display: inline-block;
+}
+footer i {
+  margin: 0 12px;
+}
+.newsletter {
+  margin: 20px 30px 0px;
+}
+.newsletter h2 {
+  margin-bottom: 20px;
+  color: #FF9D75;
+  font-size: 18px;
+  text-align: center;
+}
+.newsletter p {
+  margin-bottom: 20px;
+}
+.newsletterbox {
+  margin: 0 auto;
+  max-width: 600px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+label {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+input {
+  height: 40px;
+}
+.form-control {
+  border-radius: 0;
+}
+.checkboxes {
+  font-size: 12px;
+}
+.privacy {
+  margin-bottom: 40px;
+  font-size: 9px;
+  text-align: center;
+}
+button {
+  margin: 0 auto 40px;
+}
+.btn {
+  display: block;
+  border-radius: 0;
+}
+.btn-primary {
+  background-color: #86B994;
+  border-color: #86B994;
+}
+.btn-primary:hover {
+  color: #86B994;
+  background-color: #BBE4C0;
+  border-color: #BBE4C0;
+}
+.success {
+  text-align: center;
+}
+.success span {
+  color: #FB8580;
+  line-height: 20px;
+}
+.success p {
+  line-height: 20px;
+}
+.success img {
+  width: 80%;
+  margin: 0 auto 20px;
+}
+img.img2{
+  margin: 40px auto;
+}
+.hide {
+  display: none;
+}
+
+
+
+
+/* #############  main #################### */
+
+
+
+
+body {
+  font-family: 'Avenir Heavy', Fallback, sans-serif;
+}
+
+.containerHikers-main{
+  margin: 0 20px 40px;
+  
+}
+.container {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: contents;
+}
+
+.row{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.head {
+  margin: 20px;
+}
+
+.second-Head {
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+p{
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+h4{
+  text-align: center;
+  color: #FF9D75;
+}
+
+h1{
+  text-align: center;
+  color: #BBE4C0;
+}
+
+.text1{
+  color: #FB8580;
+}
+
+.text2{
+  color: #86B994;
+}
+
+.fa-bars{
+  color: #979797;
+  float: left;
+}
+.second-Head{
+  color: #97E2FF;
+}
+
+.main-pic{
+  width: 90vw;
+  margin: 20px auto;
+  display: block;
+} 
+
+/*##################### arcticle ####################### */
+/* .col-md-6 img {
+  margin-right: 20px;
+  width: 33%;
+}
+.img-left{
+  float: left;
+
+} */
+
+
+
+/*  */
+
+.how-section1{
+  margin-top:-15%;
+  padding: 10%;
+  display: contents;
+}
+.how-section1 h4{
+  color: #FB8580;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.how-section1 .text2{
+  color: #86B994;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.how-section1 .row
+{
+  margin-top: 20px;
+}
+.how-img 
+{
+  text-align: center;
+}
+.how-img img{
+  width: 100%;
+}
+
+
+
+
+
+

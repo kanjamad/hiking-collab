@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/admin.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Happy Hikers</h2><button id="getResult">Load Data</button>
+        <p>Type something in the input field to search the table for first names, last names or emails:</p>  
+        <input class="form-control" id="myInput" type="text" placeholder="Search..">
+        <br>
+        <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+            <th>Day Hikes</th>
+            <th>Overnight Hikes</th>
+            <th>Destination Hikes</th>
+            </tr>
+        </thead>
+        <tbody id="myTable">
+            <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+            <td>true</td>
+            <td>true</td>
+            <td>false</td>
+            </tr>
+            <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@mail.com</td>
+            <td>false</td>
+            <td>true</td>
+            <td>false</td>
+            </tr>
+            <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@greatstuff.com</td>
+            <td>true</td>
+            <td>true</td>
+            <td>true</td>
+            </tr>
+            <tr>
+            <td>Anja</td>
+            <td>Ravendale</td>
+            <td>a_r@test.com</td>
+            <td>false</td>
+            <td>true</td>
+            <td>true</td>
+            </tr>
+        </tbody>
+        </table>
+        
+        <!-- <p>Note that we start the search in tbody, to prevent filtering the table headers.</p> -->
+    </div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!-- <script src="/scripts/jquery-3.4.0.js"></script> -->
+<script src="/scripts/admin.js"></script>
+</body>
+</html>
